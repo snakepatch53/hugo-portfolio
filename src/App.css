@@ -1,0 +1,25 @@
+:root {
+    --c1: #191a1c;
+    --c1-txt: #d01f21;
+
+    --c2: #292b2e;
+    --c2-txt: #d01f21;
+
+    --c3: #d01f21;
+    --c3-txt: #191a1c;
+
+    --max-w: 1200px;
+}
+
+body {
+    background: #0f2027;
+    background: linear-gradient(
+        to right,
+        var(--c1),
+        var(--c2),
+        var(--c2),
+        var(--c1)
+    ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+    color: #fff;
+}
