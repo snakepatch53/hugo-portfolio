@@ -18,8 +18,8 @@ export default function Banner() {
                             Junior Developer
                         </h4>
                         <p className="text-balance text-lg italic mt-3 ">
-                            Yo soy un programador muy motivado y excitado por el codigo limpio,
-                            tanto que ensucio siempre mi lugar de trabajo.
+                            Yo soy un programador muy motivado por aprender nuevas tecnologias y
+                            mantere siempre mi conocimiento actualizado.
                         </p>
                     </div>
                 </div>
