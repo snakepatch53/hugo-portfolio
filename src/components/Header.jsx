@@ -7,7 +7,12 @@ import info from "../mocks/info.json";
 export default function Header() {
     const [isMenuOpen, setIsMenuOpen] = useState(false);
     return (
-        <header className="sticky top-0 flex justify-center px-2 backdrop-blur-sm">
+        <header
+            className="sticky top-0 flex justify-center px-2 backdrop-blur-sm  "
+            style={{
+                backgroundImage: "linear-gradient(to bottom, rgba(0, 0, 0, 0.7), transparent)",
+            }}
+        >
             <div className="flex justify-between items-center h-20 w-full max-w-[--max-w] ">
                 <a href="#" className="uppercase font-mono font-bold text-xl text-[--c1-txt] ">
                     {info.name}
@@ -15,8 +20,8 @@ export default function Header() {
 
                 <nav
                     className={cls(
-                        "md:static md:flex md:flex-row md:w-auto md:opacity-100 md:max-w-none md:bg-transparent md:backdrop-blur-none ",
-                        "fixed top-0 bottom-0 right-0 flex flex-col justify-center items-center gap-3  h-full w-full bg-black/50 backdrop-blur overflow-hidden transition-all ",
+                        "md:static md:flex md:flex-row md:w-auto md:opacity-100 md:max-w-none md:bg-transparent md:backdrop-filter-none ",
+                        "fixed top-0 bottom-0 right-0 flex flex-col justify-center items-center gap-3  h-screen w-full bg-black/50 backdrop-blur overflow-hidden transition-all ",
                         {
                             "max-w-0 opacity-0": !isMenuOpen,
                             "max-w-72 opacity-100": isMenuOpen,
