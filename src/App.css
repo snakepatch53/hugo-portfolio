@@ -1,6 +1,7 @@
 :root {
     --c1: #191a1c;
     --c1-txt: #d01f21;
+    --c1-txt2: #fff;
 
     --c2: #292b2e;
     --c2-txt: #d01f21;
@@ -9,6 +10,8 @@
     --c3-txt: #191a1c;
 
     --max-w: 1200px;
+
+    scroll-behavior: smooth;
 }
 
 body {
