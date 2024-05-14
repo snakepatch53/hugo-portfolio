@@ -7,7 +7,7 @@ import { useState } from "react";
 
 export default function Skills() {
     return (
-        <div id="skills" className=" relative flex justify-center px-5 bg-black/10 mt-48 mb-32 ">
+        <div id="skills" className=" relative flex justify-center px-5 bg-black/10 mt-48 mb-36 ">
             <svg viewBox="0 0 1440 320" className=" absolute bottom-full fill-black/10 ">
                 <path
                     fillOpacity="1"
