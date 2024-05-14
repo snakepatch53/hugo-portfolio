@@ -22,7 +22,7 @@ export default function Skills() {
             </svg>
             <div className=" flex flex-col items-center gap-10 w-full max-w-[--max-w] ">
                 <h1 className="font-title tracking-widest uppercase text-5xl text-[--c3] ">
-                    Skills
+                    My Skills
                 </h1>
                 <div className=" grid sm:grid-cols-2 md:grid-cols-3 gap-10 w-full max-w-[800px] px-10 ">
                     <SkillItem icon={<FontAwesomeIcon icon={faHtml5} />} name="HTML" percent="80" />
