@@ -10,7 +10,7 @@ export default function Header() {
         <header
             className="sticky top-0 z-20 flex justify-center px-2 backdrop-blur-sm  "
             style={{
-                backgroundImage: "linear-gradient(to bottom, rgba(0, 0, 0, 0.7), transparent)",
+                backgroundImage: "linear-gradient(to bottom, rgba(0, 0, 0, 0.5), transparent)",
             }}
         >
             <div className="flex justify-between items-center h-20 w-full max-w-[--max-w] ">
