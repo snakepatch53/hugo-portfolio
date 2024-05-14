@@ -7,9 +7,9 @@ import { useState } from "react";
 
 export default function Skills() {
     return (
-        <div id="skills" className="flex justify-center px-5">
+        <div id="skills" className="flex justify-center px-5 bg-black/10 py-20 ">
             <div className=" flex flex-col items-center gap-10 w-full max-w-[--max-w] ">
-                <h1 className="font-title tracking-widest uppercase text-5xl text-[--c3] mt-20 ">
+                <h1 className="font-title tracking-widest uppercase text-5xl text-[--c3] ">
                     Skills
                 </h1>
                 <div className=" grid grid-cols-3 gap-10 w-full max-w-[800px] ">
