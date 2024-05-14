@@ -8,13 +8,13 @@ export default function Header() {
     const [isMenuOpen, setIsMenuOpen] = useState(false);
     return (
         <header
-            className="sticky top-0 flex justify-center px-2 backdrop-blur-sm  "
+            className="sticky top-0 z-20 flex justify-center px-2 backdrop-blur-sm  "
             style={{
                 backgroundImage: "linear-gradient(to bottom, rgba(0, 0, 0, 0.7), transparent)",
             }}
         >
             <div className="flex justify-between items-center h-20 w-full max-w-[--max-w] ">
-                <a href="#" className="uppercase font-mono font-bold text-xl text-[--c1-txt] ">
+                <a href="#" className=" font-logo text-4xl text-[--c1-txt] ">
                     {info.name}
                 </a>
 
@@ -29,11 +29,9 @@ export default function Header() {
                     )}
                 >
                     <Option name="Home" to="#" isActive />
-                    <Option name="About me" to="#" />
-                    <Option name="What I do" to="#" />
-                    <Option name="Portfolio" to="#" />
-                    <Option name="My Resume" to="#" />
-                    <Option name="Blog" to="#" />
+                    <Option name="Skills" to="#skills" />
+                    <Option name="Portfolio" to="#portfolio" />
+                    <Option name="Resume" to="#resume" />
                     <Option name="Contact Me" to="#" />
                 </nav>
                 <button
@@ -51,7 +49,7 @@ function Option({ name, to, isActive = false }) {
     return (
         <a
             className={
-                "opacity-80 ransition duration-300 hover:text-[--c1-txt] hover:scale-110 " +
+                " font-content opacity-90 transition duration-300 hover:text-[--c1-txt] hover:scale-110 " +
                 (isActive ? "text-[--c1-txt] opacity-100 " : "")
             }
             href={to}

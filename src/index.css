@@ -1,3 +1,18 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@font-face {
+    src: url("./assets/GreatVibes-Regular.ttf");
+    font-family: logo;
+}
+
+@font-face {
+    src: url("./assets/MouseMemoirs-Regular.ttf");
+    font-family: title;
+}
+
+@font-face {
+    src: url("./assets/Ubuntu-R.ttf");
+    font-family: content;
+}

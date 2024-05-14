@@ -2,7 +2,7 @@
 import info from "../mocks/info.json";
 import socials from "../mocks/social-media.json";
 
-export default function Banner() {
+export default function Hero() {
     return (
         <div className="flex justify-center px-5">
             <div className="flex flex-col-reverse md:flex-row items-center w-full max-w-[--max-w] ">
@@ -13,11 +13,13 @@ export default function Banner() {
                         ))}
                     </div>
                     <div className="text-center md:text-left">
-                        <h3 className="font-mono text-[--c1-txt] text-2xl ">I am {info.name}</h3>
-                        <h4 className="font-bold font-mono text-3xl uppercase ">
+                        <h3 className="font-mono text-[--c1-txt] text-2xl ">
+                            I am <span className="font-logo text-4xl">{info.name}</span>
+                        </h3>
+                        <h4 className=" font-title text-3xl uppercase tracking-widest ">
                             Junior Developer
                         </h4>
-                        <p className="text-balance text-lg italic mt-3 ">
+                        <p className=" font-content text-balance text-lg mt-3 ">
                             Yo soy un programador muy motivado por aprender nuevas tecnologias y
                             mantere siempre mi conocimiento actualizado.
                         </p>

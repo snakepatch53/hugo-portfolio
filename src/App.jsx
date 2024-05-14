@@ -1,6 +1,7 @@
 import "./App.css";
-import Banner from "./components/Banner";
 import Header from "./components/Header";
+import Hero from "./components/Hero";
+import Skills from "./components/Skills";
 import info from "./mocks/info.json";
 
 export default function App() {
@@ -8,7 +9,16 @@ export default function App() {
     return (
         <>
             <Header />
-            <Banner />
+            <Hero />
+            <Skills />
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
             <p>
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure, harum suscipit
                 voluptate quaerat sed tenetur sapiente explicabo repellat? Cumque nulla laudantium
