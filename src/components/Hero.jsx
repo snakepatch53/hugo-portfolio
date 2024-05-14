@@ -4,7 +4,7 @@ import socials from "../mocks/social-media.json";
 
 export default function Hero() {
     return (
-        <div className="flex justify-center px-5">
+        <div className="relative z-10 flex justify-center px-5">
             <div className="flex flex-col-reverse md:flex-row items-center w-full max-w-[--max-w] ">
                 <div className="flex-1 flex flex-col md:flex-row items-center gap-0 md:gap-3 ">
                     <div className="flex flex-row md:flex-col gap-3 ">
